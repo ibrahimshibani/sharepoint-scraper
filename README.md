@@ -30,15 +30,15 @@ MS_SP_ID=your_sharepoint_site_id
 ## Usage
 Run the script from the command line with one of the following options:
 ```console
-python your_script.py scrape_pages to scrape SharePoint pages.
-python your_script.py scrape_files to scrape SharePoint files.
-python your_script.py scrape_all to scrape both pages and files.
+python main.py scrape_pages # to scrape SharePoint pages.
+python main.py scrape_files # to scrape SharePoint files.
+python main.py scrape_all # to scrape both pages and files.
 ```
 ## Example
 Here’s an example of how to run the script to scrape all content:
 ```console
 
-python your_script.py scrape_all
+python main.py scrape_all
 ```
 
 The files will be downloaded to a folder called data in the root repository directoy.
